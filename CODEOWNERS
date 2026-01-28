@@ -1,0 +1,101 @@
+# =============================================================================
+# CODEOWNERS — MONDIASYSTEM
+# -----------------------------------------------------------------------------
+# Rôle :
+# - Définir la gouvernance technique des dépôts
+# - Garantir la revue souveraine du code
+# - Assurer la cohérence architecturale MONDIASYSTEM
+#
+# Principe fondamental :
+# "Nous ne sommes pas des concurrents mais des contributeurs."
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# GOUVERNANCE SUPRÊME
+# ---------------------------------------------------------------------------
+
+* @PresidentIBK
+
+# ---------------------------------------------------------------------------
+# DOSSIERS STRATÉGIQUES TRANSVERSAUX
+# ---------------------------------------------------------------------------
+
+/.github/                @PresidentIBK
+/docs/                  @PresidentIBK
+/architecture/          @PresidentIBK
+/security/              @PresidentIBK
+/compliance/            @PresidentIBK
+
+# ---------------------------------------------------------------------------
+# NOYAU MONDIASYSTEM (CORE)
+# ---------------------------------------------------------------------------
+
+/core/                  @PresidentIBK
+/src/                   @PresidentIBK
+/msy-core/              @PresidentIBK
+/msy-core-production/   @PresidentIBK
+
+# ---------------------------------------------------------------------------
+# MODULES FONCTIONNELS
+# ---------------------------------------------------------------------------
+
+/modules/finance/       @PresidentIBK
+/modules/education/     @PresidentIBK
+/modules/health/        @PresidentIBK
+/modules/legal/         @PresidentIBK
+/modules/agriculture/   @PresidentIBK
+/modules/social/        @PresidentIBK
+
+# ---------------------------------------------------------------------------
+# INFRASTRUCTURE & AUTOMATISATION
+# ---------------------------------------------------------------------------
+
+/infra/                 @PresidentIBK
+/docker/                @PresidentIBK
+/k8s/                   @PresidentIBK
+/scripts/               @PresidentIBK
+/ci/                    @PresidentIBK
+/.github/workflows/     @PresidentIBK
+
+# ---------------------------------------------------------------------------
+# FRONTEND & INTERFACES
+# ---------------------------------------------------------------------------
+
+/frontend/              @PresidentIBK
+/dashboard/             @PresidentIBK
+/ui/                    @PresidentIBK
+
+# ---------------------------------------------------------------------------
+# SÉCURITÉ & IDENTITÉ
+# ---------------------------------------------------------------------------
+
+/auth/                  @PresidentIBK
+/identity/              @PresidentIBK
+/vault/                 @PresidentIBK
+/crypto/                @PresidentIBK
+
+# ---------------------------------------------------------------------------
+# DONNÉES & IA
+# ---------------------------------------------------------------------------
+
+/data/                  @PresidentIBK
+/ai/                    @PresidentIBK
+/ml/                    @PresidentIBK
+/prompts/               @PresidentIBK
+
+# ---------------------------------------------------------------------------
+# FICHIERS CRITIQUES
+# ---------------------------------------------------------------------------
+
+README.md               @PresidentIBK
+CONTRIBUTING.md         @PresidentIBK
+SECURITY.md             @PresidentIBK
+CODE_OF_CONDUCT.md      @PresidentIBK
+LICENSE*                @PresidentIBK
+*.env                   @PresidentIBK
+*.key                   @PresidentIBK
+*.pem                   @PresidentIBK
+
+# ---------------------------------------------------------------------------
+# FIN DU FICHIER
+# -----------------------------------------------------------------------------
